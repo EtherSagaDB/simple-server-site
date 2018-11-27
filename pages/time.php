@@ -1,0 +1,1 @@
+<div id="title"><font color="white"><br>Server Time:</div><font color="FFCC66"> <div id="time2"><?php echo date('g:i:s a');?></font></div>

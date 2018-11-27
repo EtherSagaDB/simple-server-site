@@ -1,0 +1,26 @@
+#slideshow {
+	height:285px;
+	width:500px;
+	float:right;
+	position:absolute;
+	margin-left:260px; 
+	margin-top:50px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
